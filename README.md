@@ -31,10 +31,12 @@ cd deep-reinforcement-learning/python
 pip install .
 ```
 
-Finally, you can create an IPython kernel for the virtual environment to run the provided notebook. Make sure before running the code in the notebook to change the kernel to match the drlnd environment using the drop-down kernel menu.
+
+## Instructions
+To run the code, create an IPython kernel for the virtual environment to run the provided notebook. Make sure before running the code in the notebook to change the kernel to match the drlnd environment using the drop-down kernel menu.
 
 ```python
 python -m ipykernel install --user --name drlnd --display-name "drlnd"
 ```
 
-
+Run each code block in the Navigation.ipynb to train a new agent to navigate the environment! The notebook will provide a plot of rewards and save the model weights of your successful agent in checkpoint.pth.  The model weights of the agent that I have already trained is saved in savedmodelweights.pth, so running the code will not write over the original saved model weights.
